@@ -73,7 +73,7 @@ module.exports = function(grunt) {
                     require('autoprefixer')(),
                     require('postcss-flexbugs-fixes')(),
                     require('postcss-embed-svg')({
-                        paths: ['assets/src/gfx/svg']
+                        paths: ['src/assets/gfx/svg']
                     })
                 ]
             },
