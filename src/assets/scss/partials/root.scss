@@ -1,0 +1,8 @@
+// => Root
+// ------------------------------------------------------------------------------
+
+:root {
+    font-size: clamp(#{$root-font-size-min}, 2vw, #{$root-font-size-max});
+    --viewport-safe-width: 100vw;
+    --viewport-safe-height: 100vh;
+}

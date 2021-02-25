@@ -1,0 +1,13 @@
+// => Externals. Bootstrap default values overrides
+// ------------------------------------------------------------------------------
+
+@import "bootstrap/scss/functions";
+@import "partials/variables.scss";
+@import "partials/mixins/helpers.scss";
+@import "bootstrap.scss";
+
+// => Partials
+// ------------------------------------------------------------------------------
+@import "partials/root.scss";
+@import "partials/layout.scss";
+@import "partials/utilities.scss";
